@@ -1,4 +1,4 @@
-#Commands of Git on Bash
+# Commands of Git on Bash
 
 set global user name
 `git config --global user.name Mark`
