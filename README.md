@@ -2,11 +2,11 @@
 
 ## Fundamental Concepts
 
-*directory*
-*workplace*
-*stage*
-*(local) repository*
-*remote (repository)*
+- *directory*
+- *workplace*
+- *stage*
+- *(local) repository*
+- *remote (repository)*
 
 ## Preparation
 
