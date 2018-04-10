@@ -7,6 +7,6 @@ else
 fi
 #if [ $? -eq 0 ]
 #then
-	git push git-test.r master
+	git push origin master
 #fi
 
