@@ -17,7 +17,7 @@ initialize (create) *workplace* at current working directory
 save GitHub account and password after inputting permanently
 
 - `git remote add origin https://github.com/Markhng/git-test`
-add *remote (repository)* named 'origin' (global variable)
+add *remote (repository)* named "origin"
 
 ## Commonness
 
@@ -28,5 +28,14 @@ add all files in the current working directory to *stage*
 commit all files from *stage* to *(local) repository* with note. [-a] means commit all files from *workplace* to *repository* directly
 
 - `git push [remote-name] [branch-name]`
-push all files from *branch* (default: master) to *remote* (default: origin)
+push all files from *branch*  to *remote*
 
+## FAQ
+
+```shell_session
+$ git pull origin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+$ git pull origin master --allow-unrelated-histories
+```
