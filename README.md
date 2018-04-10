@@ -1,6 +1,12 @@
 # Commands for Git on Bash
 
-## ~~Fundamental Concepts~~
+## Fundamental Concepts
+
+*directory*
+*workplace*
+*stage*
+*(local) repository*
+*remote (repository)*
 
 ## Preparation
 
@@ -28,7 +34,7 @@ add all files in the current working directory to *stage*
 commit all files from *stage* to *(local) repository* with note. [-a] means commit all files from *workplace* to *repository* directly
 
 - `git push [remote-name] [branch-name]`
-push all files from *branch*  to *remote*
+push all files from *stage* to *branch* of *remote*
 
 ## FAQ
 
