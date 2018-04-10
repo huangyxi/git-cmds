@@ -1,6 +1,6 @@
 # Commands of Git on Bash
 
-;## Fundamental Concepts
+; ## Fundamental Concepts
 
 ## Preparation
 
