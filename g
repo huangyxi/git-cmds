@@ -7,5 +7,5 @@ else
 fi
 if [ $? -eq 0 ]
 then
-	git push
+	git push git-test.r git-test.b
 fi
