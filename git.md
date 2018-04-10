@@ -24,8 +24,8 @@ add *remote (repository)* named 'origin' (global variable)
 - `git add .`
 add all files in the current working directory to *stage*
 
-- `git commit -m "note"`
-commit all files from *stage* to *(local) repository* with note.
+- `git commit [-a] -m "note"`
+commit all files from *stage* to *(local) repository* with note. [-a] means commit all files from *workplace* to *repository* directly
 
 - `git push [origin] [master]`
 push all files form *repository* (default: master) to *remote* (default: origin)
