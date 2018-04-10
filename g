@@ -5,8 +5,8 @@ then
 else
 	git commit -m $1
 fi
-if [ $? -eq 0 ]
-then
+#if [ $? -eq 0 ]
+#then
 	git push git-test.r master
-fi
+#fi
 
