@@ -1,4 +1,4 @@
-# Commands of Git on Bash
+# Commands for Git on Bash
 
 ## ~~Fundamental Concepts~~
 
@@ -32,7 +32,7 @@ push all files from *branch*  to *remote*
 
 ## FAQ
 
-```shell_session
+- ```shell_session
 $ git pull origin
 You asked to pull from the remote 'origin', but did not specify
 a branch. Because this is not the default configured remote
