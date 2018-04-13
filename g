@@ -5,8 +5,8 @@ then
 else
 	git commit -m $1
 fi
-#if [ $? -eq 0 ]
-#then
+if [ $? -ne 1 ]
+then
 	git push origin master
-#fi
+fi
 
