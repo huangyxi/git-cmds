@@ -10,6 +10,9 @@
 
 ## Preparation
 
+- `ssh-keygen -t rsa -C "example@example.com"`
+generate ssh key
+
 - `git config --global user.name Mark`
 set global user name
 
