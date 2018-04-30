@@ -39,6 +39,8 @@ commit all files from *stage* to *(local) repository* with note. [-a] means comm
 - `git push [remote-name] [branch-name]`
 push all files from *stage* to *branch* of *remote*
 
+- `git rm -r --cached file.ext`
+untrack file.ext after
 ## FAQ
 
 ```shell_session
