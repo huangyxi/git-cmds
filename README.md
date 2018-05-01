@@ -41,6 +41,10 @@ push all files from *stage* to *branch* of *remote*
 
 - `git rm -r --cached file.ext`
 untrack file.ext after
+
+- `git rm -r --cached .;git add .;git commit -m 'update .gitignore'`
+reload stage while .gitignore not work
+
 ## FAQ
 
 ```shell_session
