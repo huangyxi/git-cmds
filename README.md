@@ -19,7 +19,7 @@ set global user name
 - `git config --global user.email example@example.com`
 set global user email
 
-- `set init`
+- `git init`
 initialize (create) *workplace* at current working directory
 
 - `git config --global credential.helper store`
