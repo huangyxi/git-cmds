@@ -45,6 +45,14 @@ untrack file.ext after
 - `git rm -r --cached .;git add .;git commit -m 'update .gitignore'`
 reload stage while .gitignore not work
 
+## Advanced Operations
+
+-`git log --stat`
+show the brief log (changes of lines)
+
+-`git reset HEAD~1`
+undo last operation
+
 ## FAQ
 
 ```shell_session
