@@ -53,6 +53,12 @@ show the brief log (changes of lines)
 -`git reset HEAD~1`
 undo last operation
 
+-```
+git filter-branch --force --index-filter 'git \
+rm --cached --ignore-unmatch SECURE.txt' \
+--prune-empty --tag-name-filter cat -- --all
+```
+remove SECURE file completely
 ## FAQ
 
 ```shell_session
