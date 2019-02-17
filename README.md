@@ -28,6 +28,9 @@ save GitHub account and password after inputting permanently
 - `git remote add origin https://github.com/Markhng/git-test`
 add *remote (repository)* named "origin"
 
+- `git config --local  commit.gpgsign true`
+set GPG-sign as default
+
 ## Commonness
 
 - `git add .`
